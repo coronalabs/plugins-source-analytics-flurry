@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		07146D1F16A7740C009BC8E3 /* IOSFlurryAnalyticsProvider.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07146D1E16A7740C009BC8E3 /* IOSFlurryAnalyticsProvider.mm */; };
+		F83C7D4B17E2AFC100E89321 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F87EBB1F17C40F4D00B75CE0 /* libFlurry.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F83C7D4B17E2AFC100E89321 /* libFlurry.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +185,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../sdk-flurry/FlurryAnalytics\"",
+					"\"$(SRCROOT)/../sdk/flurry/ios\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -201,6 +204,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../sdk-flurry/FlurryAnalytics\"",
+					"\"$(SRCROOT)/../sdk/flurry/ios\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
