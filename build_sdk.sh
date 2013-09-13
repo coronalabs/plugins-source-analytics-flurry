@@ -9,7 +9,7 @@ PRODUCT=sdk
 
 if [ ! "$BUILD_NUM" ]
 then
-	BUILD_NUM=2013.1128
+	BUILD_NUM=2013.1203
 fi
 
 #

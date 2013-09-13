@@ -2,7 +2,7 @@
 
 path=`dirname $0`
 
-PLUGIN_NAME=gameNetwork-google
+PLUGIN_NAME=analytics-flurry
 
 #
 # Checks exit value for error
