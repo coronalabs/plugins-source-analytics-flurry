@@ -5,13 +5,22 @@
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          analytics
 > __Sample code__       */CoronaSDK/SampleCode/Analytics/FlurrySample*
-> __See also__          
+> __See also__
+> __Availability__      Pro, Enterprise          
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
 
 The Corona analytics library lets you easily log interesting events in your application.
 
+## Platforms
+
+The following platforms are supported:
+
+* Android
+* iOS
+* Amazon
+* Nook
 
 ## Functions
 
