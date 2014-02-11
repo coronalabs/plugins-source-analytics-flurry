@@ -45,6 +45,8 @@
 		A4F0616916854357009C7C8F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F0616616854357009C7C8F /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A4F0616A16854357009C7C8F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F0616716854357009C7C8F /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A4F0616B16854357009C7C8F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F0616816854357009C7C8F /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F80392E718A9AF9200281B9B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80392E618A9AF9200281B9B /* CoreVideo.framework */; };
+		F80392E818A9AF9600281B9B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484112315114F700074BD57 /* GLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +112,7 @@
 		A4F0616616854357009C7C8F /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		A4F0616716854357009C7C8F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		A4F0616816854357009C7C8F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		F80392E618A9AF9200281B9B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80392E818A9AF9600281B9B /* GLKit.framework in Frameworks */,
+				F80392E718A9AF9200281B9B /* CoreVideo.framework in Frameworks */,
 				A4F0616916854357009C7C8F /* Accounts.framework in Frameworks */,
 				A4F0616A16854357009C7C8F /* AdSupport.framework in Frameworks */,
 				A4F0616B16854357009C7C8F /* Social.framework in Frameworks */,
@@ -205,6 +210,7 @@
 		A484111C15114F700074BD57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F80392E618A9AF9200281B9B /* CoreVideo.framework */,
 				A4F0616616854357009C7C8F /* Accounts.framework */,
 				A4F0616716854357009C7C8F /* AdSupport.framework */,
 				A4F0616816854357009C7C8F /* Social.framework */,
