@@ -6,7 +6,7 @@
 > __Keywords__          analytics
 > __Sample code__       */CoronaSDK/SampleCode/Analytics/FlurrySample*
 > __See also__
-> __Availability__      Starter, Pro, Enterprise          
+> __Availability__      Starter, Basic, Pro, Enterprise          
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
