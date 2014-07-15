@@ -89,7 +89,7 @@
     <macrodef name="copy-libs">
         <sequential>
             <mkdir dir="libs" />
-            <copy file="../sdk/flurry/android/FlurryAgent.jar" todir="libs" />
+            <copy file="../sdk/flurry/android/FlurryAnalytics-4.1.0.jar" todir="libs" />
             <copy file="${CoronaEnterpriseDir}/Corona/android/lib/Corona/libs/JNLua.jar" todir="libs" />
             <copy file="${CoronaEnterpriseDir}/Corona/android/lib/Corona/libs/Corona.jar" todir="libs" />
         </sequential>
