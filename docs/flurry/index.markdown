@@ -43,6 +43,10 @@ settings =
 			-- required
 			publisherId = "com.coronalabs",
 		},
+		["plugin.google.play.services"] =
+		{
+			publisherId = "com.coronalabs"
+		},
 	},
 }
 ``````
