@@ -1,26 +1,24 @@
 # analytics.*
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [CoronaLibrary][api.type.CoronaLibrary]
+> __Type__              [CoronaProvider][api.type.CoronaProvider]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
-> __Keywords__          analytics
-> __Sample code__       */CoronaSDK/SampleCode/Analytics/FlurrySample*
-> __See also__
-> __Availability__      Starter, Basic, Pro, Enterprise          
+> __Keywords__          analytics, Flurry
+> __Availability__      Starter, Basic, Pro, Enterprise
+> __Platforms__			Android, iOS
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
 
-The Corona analytics library lets you easily log interesting events in your application.
+The Flurry plugin lets you log interesting events in your application via the [analytics][api.library.analytics] library.
 
-## Platforms
+## Registration
 
-The following platforms are supported:
+To use Flurry analytics, please [register]((http://www.flurry.com)) for an account.
 
-* Android
-* iOS
-* Amazon
-* Nook
+## Syntax
+
+	local analytics = require( "analytics" )
 
 ## Functions
 
@@ -28,20 +26,18 @@ The following platforms are supported:
 
 #### [analytics.logEvent()][plugin.flurry.logEvent]
 
-## build.settings
+## Project Settings
 
-The following build.settings section is required to for Google Play game services
+To use this plugin, add two entries into the `plugins` table of `build.settings`. When added, the build server will integrate the plugin during the build phase.
 
 ``````lua
 settings =
 {
 	plugins =
 	{
-		-- key is the name passed to Lua's 'require()'
 		["CoronaProvider.analytics.flurry"] =
 		{
-			-- required
-			publisherId = "com.coronalabs",
+			publisherId = "com.coronalabs"
 		},
 		["plugin.google.play.services"] =
 		{
